@@ -1,0 +1,22 @@
+{
+  "name": "klatschen-game-server",
+  "version": "1.0.0",
+  "description": "Klatschen Game implementation based on socket.io",
+  "main": "index.js",
+  "author": "Sven Friedemann",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve:server": "nodemon .",
+    "serve:app": "cd app && yarn run start",
+    "start": "run-p serve:*"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "npm-run-all": "^4.1.2"
+  }
+}
